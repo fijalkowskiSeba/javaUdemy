@@ -1,5 +1,7 @@
 package pl.sebastianf;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,9 +16,19 @@ public class Main {
         System.out.println("Double min value: "+doubleMinValue);
         System.out.println("Double max value: "+doubleMaxValue);
 
-        int myIntValue=5;
-        float myFloatValue=5.25f;
-        double myDoubleValue=5d;
+        int myIntValue=5/3;
+        float myFloatValue=5f/3f;
+        double myDoubleValue=5.00/3.00;
+        System.out.println("MyIntValue= "+myIntValue);
+        System.out.println("MyFloatValue= "+myFloatValue);
+        System.out.println("MyDoubleValue= "+myDoubleValue);
+
+
+        Scanner scanner=new Scanner(System.in);
+        double numberOfPounds=scanner.nextDouble();
+        double numberOfKilograms=numberOfPounds*0.45359237;
+        System.out.println(numberOfPounds+" pounds = "+numberOfKilograms+" kilograms");
+
 
 
     }
