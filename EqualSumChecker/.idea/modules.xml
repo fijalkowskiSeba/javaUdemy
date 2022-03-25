@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DecimalComparator.iml" filepath="$PROJECT_DIR$/DecimalComparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EqualSumChecker.iml" filepath="$PROJECT_DIR$/EqualSumChecker.iml" />
     </modules>
   </component>
 </project>
